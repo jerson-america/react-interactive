@@ -1,0 +1,42 @@
+header#header{
+  padding: 20px;
+  background: #2e2e2e;
+
+    .social-wrap{
+      float: right;
+
+      li{
+        display: inline-block;
+        color: #fff;
+        font-size: 12px;
+        padding: 10px;
+        background: #787878;
+        border-radius: 50%;
+        margin: 0 5px;
+
+        &:hover{
+          background: #db4a39;
+          cursor: pointer;
+        }
+      }
+
+    }
+    .top-link-wrap{
+      ul{
+        li{
+          display: inline-block;
+          padding: 10px 0px 10px 10px;
+
+          a{
+            color: #fff;
+            text-transform: uppercase;
+            text-decoration: none;  
+            &:hover{
+              color: #0099ff;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+}
